@@ -22,20 +22,30 @@ public class FullNameApplication {
         // ask for suffix:
         System.out.println("suffix. Press Enter if none.");
 
-
         // display full name
-        String FullName = "Glen Williams";
+        String FullName = "";
         String FirstName = "Glen";
-        String MiddleName = "";
+        String MiddleName = "C.";
         String LastName = "Williams";
 
 
-        System.out.println("First name:" + FirstName);
-        System.out.println("Middle name:" + "");
-        System.out.println("Last name:" + "" + LastName);
-        System.out.println("Full Name:" + FullName);
+
+        if (middleName.isEmpty()) {
+            System.out.println(" full name without middle name is :" + FirstName + " " + LastName);
+        } else {
+            System.out.println(" full name is :" + FirstName + " " +MiddleName + " " + LastName);
+
+
+
+        }
 
         System.out.println("-------------------------");
+
+
+
+
+
+
 
 
 
