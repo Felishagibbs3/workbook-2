@@ -39,8 +39,24 @@ public class CellPhoneApplication {
         System.out.println("The Carrier is:" + myPhone.getCarrier());
         System.out.println("The Phone Number is:" + myPhone.getPhoneNumber());
         System.out.println("The Owner is:" + myPhone.getOwner());
+        // New cell phone
+        CellPhone iPhone = new CellPhone();
+        iPhone.setPhoneNumber("123-456-7890");
+        iPhone.setOwner("Carl Johnson");
+
+        System.out.println("iPhone");
+
+
+
+
+
+
+
+
+        }
+
 
 
 
     }
-}
+
