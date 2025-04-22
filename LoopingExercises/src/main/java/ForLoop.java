@@ -7,7 +7,7 @@ public class ForLoop {
             System.out.println("I Love Java");
             loop++;
         } while (loop < 5);
-        
+
 
     }
 }
